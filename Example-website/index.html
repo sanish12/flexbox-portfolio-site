@@ -1,0 +1,153 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>FlexBox Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Spectral+SC" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+        <div class="container">
+<header>
+        
+    <div class="top-menu-bar">
+        <a class="burger-nav"><i id="burger" class="fa fa-bars"></i></a>
+        <ul id="here">
+            
+            <li><a href='#'>Home</a></li>
+            <li><a href=''>About</a></li>
+            
+            <li><a href=''>Contact</a></li>
+            <li class="drop-down-mother"><a href=''>Blog</a>
+                <ul class="drop-down">
+                    <li>Tech</li>
+                    <li>Pysche</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</header>
+<div class="landing-image">
+    <div class="landing-image-text">
+    <strong>Sanish Shrestha</strong>
+    <button class='buttons' id="focus-here">Learn More</button>
+    </div> <!-- end of landing-image-text  -->
+</div><!-- end of landing image div -->
+<div class="skills-section">
+    <h3>My Skills</h3>
+    <div class="mother-box">
+    <div class="inner-box"><i class="fa fa-html5 fa-5x"></i>
+        <h2>HTML 5</h2>
+        <p style="color:white">Lorem ipsum Lorem ipsum Lorem ipsum</p>
+    </div>
+    <div class="inner-box"><i class="fa fa-css3 fa-5x"></i>
+        <h2>CSS 3</h2>
+        <p style="color:white">Lorem ipsum Lorem ipsum Lorem ipsum</p>
+    </div>
+    <div class="inner-box"><i class="fa fa-search-plus fa-5x" aria-hidden="true"></i>
+    <h2>SEO Services</h2>
+        <p style="color:white">Lorem ipsum Lorem ipsum Lorem ipsum</p>
+    </div>
+</div>
+<div content="" style="height: 30px;"></div>
+</div>
+<h3 style="text-align: center;">MY COURSES</h3>
+<div class="courses">
+    <div class="cards">
+        <div class="card-title">BASICS OF HTML</div>
+        <div class="card-image"></div>
+        <div class="card-text">
+                <p>Total Time: 5hrs</p>
+                <p>Category: Web Dev</p>
+                <button class='buttons'>Buy Course</button>
+        </div>
+    </div>
+<!-- end of cards div-->
+<div class="cards">
+        <div class="card-title">CSS3</div>
+        <div class="card-image-1"></div>
+        <div class="card-text">
+                <p>Total Time: 5hrs</p>
+                <p>Category: Web Dev</p>
+                <button class='buttons'>Buy Course</button>
+        </div>
+    </div>
+    <div class="cards">
+            <div class="card-title">LARAVEL 5.4</div>
+            <div class="card-image-2"></div>
+            <div class="card-text">
+                    <p>Total Time: 5hrs</p>
+                    <p>Category: Web Dev</p>
+                    <button class='buttons'>Buy Course</button>
+            </div>
+        </div>
+        <div class="cards">
+                <div class="card-title">PHP FOR THE WEB</div>
+                <div class="card-image-3">
+                    
+                </div>
+                <div class="card-text">
+                    <p>Total Time: 5hrs</p>
+                    <p>Category: Web Dev</p>
+                    <button class='buttons'>Buy Course</button>
+                </div>
+            </div>
+ </div>
+ <div content="" style="height: 30px;"></div>
+
+<!--start-->
+<div class="about">
+    <div class="about-image"></div>
+<div class="wcard">
+        <p><button class="button-black">ABOUT ME</button></p>
+    
+        <h1>John Doe</h1>
+        <p class="title">CEO & Founder, Example</p>
+        <p>Harvard University</p>
+        <a href="#"><i class="fa fa-dribbble"></i></a> 
+        <a href="#"><i class="fa fa-twitter"></i></a> 
+        <a href="#"><i class="fa fa-linkedin"></i></a> 
+        <a href="#"><i class="fa fa-facebook"></i></a> 
+        <p><button class="button-black">Contact</button></p>
+      </div>
+    </div>
+    <div content="" style="height: 20px;"></div>
+<!-- end -->
+<div class="contact">
+        <div id="map" style="width:600px;height:400px;background:yellow"></div>
+        <div class="contact-form">
+            <form>
+                <h3>CONTACT ME</h3>
+                <p>Email Address:</p>
+                <p><input type="text" name="email"/></p>
+                <p>Title</p>
+                <p><input type="text" name="Title"/></p>
+                <p>Description</p>
+                <p><textarea rows="4" cols="40"></textarea></p>
+                <button class="buttons" type="submit">SUBMIT</button>
+            </form>
+        </div>
+</div>
+<div content="" style="height: 20px;"></div>
+</div><!-- end of div container -->
+<footer>
+        2017 &copy; Sanish Shrestha 
+</footer>
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="menu.js"></script>
+<script>
+        function myMap() {
+        var mapOptions = {
+            center: new google.maps.LatLng(51.5, -0.12),
+            zoom: 10,
+            mapTypeId: google.maps.MapTypeId.HYBRID
+        }
+        var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+        }
+        </script>
+        
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+</body>
+</html>
